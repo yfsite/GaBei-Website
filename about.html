@@ -5,19 +5,6 @@
 <html lang=zh-cn>
 <head>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src=//ivi.bupt.edu.cn/purl.js></script>
-<script type="text/javascript">
-(function ($) {
-$.getUrlParam = function (name) {
-var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-var r = window.location.search.substr(1).match(reg);
-if (r != null) return unescape(r[2]); return null;
-}
-})(jQuery);
-//alert($.getUrlParam('id'));
-var uid = $.getUrlParam('keyword')
-//alert(uid)
-</script>
 <script>
 var kw =  document.getElementById("s-id").value
 function submitbei(){
